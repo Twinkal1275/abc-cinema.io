@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ABC-Cinema</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/cinema.css'>
+
+    <!-- css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- js csn -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <!-- icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src='js/cinema.js'></script>
+</head>
+<body>
+
+   <!-- header -->
+   <div id="header">
+    <div class="row">
+    <div class="col-md-5 cine">
+        <h1 class="ms-5 text-white fs-2 mt-2 " style="overflow-y: hidden;">ABC-CINEMA</h1>
+    </div>
+    <div class="col-md-7 nav navbar navbar-expand-md sticky-top">
+        <button type="button" class="navbar-toggler bg-white  opntgl" data-bs-toggle="collapse"
+        data-bs-target=".opnnav">
+        <i class="bi bi-columns-gap bars"></i>
+    </button>
+    <div class="collapse navbar-collapse opnnav">
+        <ul class="nav-link">
+            <li><a href="home.html" class="mt-2 text-danger">Home</a></li>
+            <li><a href="about.html" class="mt-2 text-white">About</a></li>
+            <li><a href="buy-ticket.html" class="mt-2 text-white">Buy-Tictect</a></li>
+            <li><a href="contact.html" class="mt-2 text-white">Contact Us</a></li>
+            <!-- <li><a href="#" class="mt-2 text-danger">Login</a></li> -->
+            <li><a href="#" class="mt-2 text-white" id="lout" onclick="closewin()">Log Out</a></li>
+        </ul>
+        </div>
+    </div>
+    </div>
+   </div>
+
+
+
+    <!--main content  -->
+    <div id="contact">
+        <div class="conta">
+            <h1 class="text-white text-center mt-5 pt-5"> ABOUT US<br>
+                 <button class="btn btn-md bg-danger pt-2 pb-2 ps-4 pe-4 btn-center text-white mt-4 border border-none" type="button">Watch 
+                    More..</button></h1>
+        </div>
+    </div>
+
+
+    <!-- sliders -->
+    <div id="slider">
+        <div class="row mt-5 dedic">
+            <div class="col-md-8">
+                <h1 class="ms-5" style="overflow-y: hidden;">WE ARE <b class="text-danger">DEDICATED TO</b> BEST <br> MOVIES EXPERIENCE POSSIBLE.</h1>
+                <p class="w-75 ms-5 fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos harum iusto natus 
+                    deleniti voluptate optio ut beatae sit a doloremque voluptatibus explicabo quia earum, dolore vel. 
+                    Aliquam totam natus quisquam!<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+                     totam, explicabo odio placeat a non dolorem ea laborum quae. Omnis obcaecati nesciunt repellendus
+                      tempore delectus, ab fugiat hic ut aliquam?</p>
+            </div>
+            <div class="col-md-4 slide">
+                <img src="image/spiderman.jpeg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- discount -->
+    <div class="row">
+        <div class="col-md-4 discount">
+            <h1 class="ms-5 mt-5" style="overflow-y: hidden;">TO GET <b class="text-danger">35%</b> <br> DISCOUNTS</h1>
+            <p class="ms-5 fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi in quidem exercitationem, ducimus sed ipsa
+                 ratione tenetur praesentium obcaecati quis adipisci. Similique voluptas a suscipit neque consectetur
+                  deleniti accusantium tempore!</p>
+                  <button class="btn btn-md bg-danger pt-2 pb-2 ps-4 pe-4 ms-5 btn-center text-white mt-4 border border-none" type="button">Watch 
+                    More..</button>
+        </div>
+        <div class="col-md-8">
+            <div class="row list mt-5 p-4 me-5 ms-5">
+                <div class="col-md-6">
+                    <input type="text" name="name" placeholder="Enter Your Name" class="input-grup p-2 mt-3 border border-none">
+                    <input type="time" placeholder="Booking Time" class="input-grup p-2 mt-3 border border-none">
+                </div>
+                <div class="col-md-6">
+                    <input type="email" name="email" placeholder="Enter Your Email" class="input-grup p-2 mt-3 border border-none">
+                    <input type="date" placeholder="Booking Date" class="input-grup p-2 mt-3 border border-none">
+                </div>
+                <textarea placeholder="Messagre" class="mt-3 pb-5 border border-none rounded"></textarea>
+                <button type="submit" class="mt-3 p-2 bg-danger border border-none text-white fs-5 btn">Submit</button>
+            </div>
+        </div>
+        
+    </div>
+<br><br>
+
+   
+
+    <!-- footer -->
+    <div id="footer">
+        <div class="row">
+            <div class="col-md-6 abc-cine">
+                <h1 class="ms-5 mt-5 text-white fs-2 mt-2" style="overflow-y: hidden;">ABC-CINEMA</h1>
+                <p class="ms-5 mt-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, provident repellat autem, 
+                    adipisci quas incidunt laudantium quam beatae, facilis aliquam quaerat repudiandae exercitationem 
+                    delectus. Facilis provident consequatur quis fuga fugiat.</p>
+                 <p class="text-white mt-2 ms-5 fs-5"><span class="bi bi-geo-alt-fill"> &nbsp GreenLand Chokdi-360003</span></p> 
+                 <p class="text-white mt-2 ms-5 fs-5"><span class="bi bi-telephone-fill"> &nbsp +91 77789 25823</span></p>
+                 <p class="text-white mt-2 ms-5 fs-5"><span class="bi bi-envelope-at-fill"> &nbsp twin@gmail.com</span></p>   
+   
+                 <p class="text-white mt-3 fs-4 ms-5" style="overflow-y: hidden;"><span class="bi bi-twitter bg-danger p-2"></span> &nbsp 
+                    <span class="bi bi-instagram bg-danger p-2"></span> &nbsp 
+                <span class="bi bi-whatsapp bg-danger p-2"></span> &nbsp <span class="bi bi-facebook bg-danger p-2"></span></p>
+            </div>
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-5 mt-5 text-white ms-5">
+                        <h4 class="">QUICK LINKS</h4>
+                        <p class="mt-3">More</p>
+                        <p>About Us</p>
+                        <p>Movies</p>
+                        <p>Day Tickets</p>
+                        <p>Contact Us</p>
+                    </div>
+                    <div class="col-md-5 mt-5 text-white ms-5">
+                        <h4>POPULARS LINKS</h4>
+                        <p class="mt-3">Home</p>
+                        <p>About Us</p>
+                        <p>Movies</p>
+                        <p>Buy Tickets</p>
+                        <p>Contact Us</p>
+                    </div>
+                    <h3 class="text-white mt-4 ms-5">NEWS-LETTER</h3>
+                   <input type="text" placeholder="Enter Your Email" class="p-1 mt-3 ms-5 w-75">
+                     <button class="btn bg-danger p-2 text-white border border-none w-25 ms-5 mt-2 news">Sign Up</button>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+</body>
+</html>

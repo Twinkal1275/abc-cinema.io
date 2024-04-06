@@ -1,0 +1,466 @@
+*
+{
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden ;
+    box-sizing: border-box;
+    /* overflow-y: hidden; */
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+#header
+{
+    background-color: rgba(60, 60, 60, 0.9);
+}
+.nav li
+{
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    display: inline-block;    
+}
+.nav a
+{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 25px !important;
+    font-size: 20px;
+}
+.cont
+{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(60, 60, 60, .5);
+}
+.cont::before
+{
+    content: "";
+    width: 100%;
+    height: 400px;
+    background: url(../image/vijay.jpg) no-repeat;
+    background-position :top;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    opacity: .2;
+}
+.cont .btn:hover, .conta .btn:hover
+{
+    box-shadow: 0px 2px 12px  white;
+    border-radius: 20px;
+}
+.slide img
+{
+    width: 80%;
+    height: 250px;
+    box-shadow:  0px 2px 14px 0px black;
+    border-radius: 20px;
+    border: 2px black;
+}
+#sections
+{
+    background-color: rgba(60, 60, 60, 0.2);
+}
+.movie img
+{
+    width: 80%;
+    height: 250px;
+    border-radius: 12px;
+}
+.movie img:hover
+{
+    box-shadow: 0px 5px 15px black;
+    border-radius: 20px;
+}
+.movie .btn:hover
+{
+    box-shadow: 0px 2px 12px  black;
+    border-radius: 20px;
+}
+.discount .btn:hover
+{
+    box-shadow: 0px 2px 12px  black;
+    border-radius: 20px;
+}
+.list
+{
+    background-color: rgba(60, 60, 60, 0.1);
+}
+.input-grup
+{
+    width: 95%;
+}
+.list .btn:hover
+{
+    box-shadow: 0px 2px 12px  black;
+    border-radius: 20px;
+}
+#team
+{
+    background-color: rgba(60, 60, 60, 0.2);
+}
+#team .directs
+{
+    height: 250px;
+    box-shadow: 0px 2px 14px black;
+}
+.direc
+{
+    width: 30%;
+    height: 100px;
+    margin-left: 60% !important;
+    margin-top: -35% !important;
+    box-shadow: 0px 2px 14px black;
+}
+#footer
+{
+    background-color: rgba(60, 60, 60, 0.9); 
+}
+.news:hover
+{
+    box-shadow: 0px 2px 12px  black;
+    border-radius: 20px;
+}
+.conta
+{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(60, 60, 60, .5);
+}
+.conta::before
+{
+    content: "";
+    width: 100%;
+    height: 400px;
+    background: url(../image/leo.webp) no-repeat;
+    background-position :top;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    opacity: .2;
+}
+.ticket img
+{
+    width: 30%;
+    height: 300px;
+}
+.contac
+{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(60, 60, 60, .5);
+}
+.contac::before
+{
+    content: "";
+    width: 100%;
+    height: 400px;
+    background: url(../image/all.jpg) no-repeat;
+    background-position :top;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    opacity: .2;
+}
+.contacts
+{
+    background-color: rgba(60, 60, 60, 0.1);
+    /* height: 380px; */
+}
+.msg:hover
+{
+    box-shadow: 0px 2px 12px  black;
+    border-radius: 20px;
+}
+
+/* login page */
+.login
+{
+    background: url(../image/bg.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-y: hidden !important;
+    width: 100%;
+    height: 730px;
+}
+.login-form
+{
+    width: 50%;
+    margin-left: 25% !important;
+    background-color: rgba(60, 60, 60, 0.1);
+    margin-top: 5% !important;
+    border-radius: 20px;
+    box-shadow: 0px 2px 14px black;
+}
+.login-form input
+{
+    margin-left: 5% !important;
+    width: 80%;
+    box-shadow: 0px 2px 14px gray;
+}
+.login-form .btn
+{
+    margin-bottom: 6% !important;
+}
+.login-form .btn:hover
+{
+    box-shadow: 0px 2px 12px  black;
+    border-radius: 20px;
+}
+.contac .btn:hover
+{
+    box-shadow: 0px 2px 12px  white;
+    border-radius: 20px;
+}
+.nav-link a:hover
+{
+    background-color: black;
+    box-shadow: 0px 4px 15px white;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    #slider
+    {
+        margin: 0% !important;
+    }
+    .dedic p, .discount p
+    {
+        width: 80% !important;
+        margin-left: 13% !important;
+        font-size: 17px !important;
+    }
+    .slide img
+    {
+        margin-left: 10% !important;
+        margin-top: 10% !important;
+    }
+    .movie img
+    {
+        margin-left: 10% !important;
+    }
+    .discount h1,.dedic h1
+    {
+        margin-left: 13% !important;
+    }
+    .box
+    {
+        width: 100% !important;
+        margin-left: 0% !important;
+    }
+     #team .directs
+    {   
+        margin-left: 0% !important;
+        padding: 30px !important;
+        box-shadow: none;
+    }
+    #team h3,#team p,#team q
+    {
+        margin-left: 13% !important;
+    }
+    #footer p
+    {
+        width: 70% !important;
+    }
+    .feel
+    {
+        width: 90% !important;
+        font-size: 16px !important;
+        margin-left: 5% !important;
+        margin-top: 2% !important;
+    }
+    .free
+    {
+        font-size: 24px !important;
+    }
+    #contact iframe
+    {
+        margin-left: 5% !important;
+        width: 90% !important;
+        height: 350px !important;
+    }
+    .contacts
+    {
+        margin-left: 0% !important;
+        width: 70% !important;
+        padding-left: 0% !important;
+    }
+    .contacts input,.contacts textarea,.contacts .btn
+    {
+        margin-left: 3% !important;
+        width: 90% !important;
+    }
+    .contacts img
+    {
+        padding: 20px !important;
+        margin-left: 0% !important;
+    }
+    .login-form
+    {
+        width: 96% !important;
+        margin-left: 2% !important;
+    }
+    .opntgl
+    {
+        margin-left: 86% !important;
+        padding: 5px !important;
+        margin-bottom: 15px !important;
+        float: left !important;
+        float:  left !important;
+        margin-top: 4% !important;
+            /* position: absolute; */
+    }
+    .cine h1
+    {
+       margin-top: 14px !important;
+       font-size: 25px !important;
+       margin-left: 2% !important;
+       float:  left !important;
+       position: absolute;
+    }
+    .nav-link li
+    {
+        display: block !important;
+    }
+    .login
+    {
+        height: 550px !important;
+    }
+   
+}
+
+
+@media only screen and (min-width:481px) and (max-width:767px)
+{
+    #slider
+    {
+        margin: 0% !important;
+    }
+    .dedic p, .discount p
+    {
+        width: 80% !important;
+        margin-left: 10% !important;
+        font-size: 17px !important;
+    }
+    .slide img
+    {
+        margin-left: 10% !important;
+        margin-top: 10% !important;
+    }
+    .movie img
+    {
+        margin-left: 10% !important;
+    }
+    .discount h1,.dedic h1
+    {
+        margin-left: 10% !important;
+    }
+    .box
+    {
+        width: 100% !important;
+        margin-left: 0% !important;
+    }
+     #team .directs
+    {   
+        margin-left: 0% !important;
+        padding: 30px !important;
+        box-shadow: none;
+    }
+    #team h3,#team p,#team q
+    {
+        margin-left: 13% !important;
+    }
+    #footer p
+    {
+        width: 70% !important;
+    }
+    .feel
+    {
+        width: 90% !important;
+        font-size: 16px !important;
+        margin-left: 5% !important;
+        margin-top: 2% !important;
+    }
+    .free
+    {
+        font-size: 24px !important;
+    }
+    #contact iframe
+    {
+        margin-left: 5% !important;
+        width: 90% !important;
+        height: 400px !important;
+    }
+    .contacts
+    {
+        margin-left: 0% !important;
+        width: 85% !important;
+        padding-left: 0% !important;
+    }
+    .contacts input,.contacts textarea,.contacts .btn
+    {
+        margin-left: 3% !important;
+        width: 90% !important;
+    }
+    .contacts img
+    {
+        padding: 20px !important;
+        margin-left: 0% !important;
+    }
+    .login-form
+    {
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+    .opntgl
+    {
+        margin-left: 86% !important;
+        padding: 5px !important;
+        margin-bottom: 15px !important;
+        float: left !important;
+        float:  left !important;
+        margin-top: 4% !important;
+            /* position: absolute; */
+    }
+    .cine h1
+    {
+       margin-top: 14px !important;
+       font-size: 25px !important;
+       margin-left: 2% !important;
+       float:  left !important;
+       position: absolute;
+    }
+    .nav-link li
+    {
+        display: block !important;
+    }
+    .login
+    {
+        height: 550px !important;
+    }
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+    #sections img
+    {
+        margin-left: 9% !important;
+    }
+    .evans h3,.evans p,.evans q
+    {
+        margin-left: 5% !important;
+    }
+    .links h4
+    {
+        overflow-y: hidden !important;
+    }
+    #contact iframe
+    {
+        margin-left: 5% !important;
+        width: 90% !important;
+        height: 550px !important;
+    }
+}
